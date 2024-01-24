@@ -25,6 +25,7 @@ local params = import 'params.libsonnet';
                   {
                      "image": params.image,
                      "name": params.name,
+                     "imagePullPolicy": "always",
                      "ports": [
                      {
                         "containerPort": params.containerPort

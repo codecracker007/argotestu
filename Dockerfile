@@ -6,6 +6,6 @@ COPY mainu.go .
 
 RUN go build mainu.go
 
-EXPOSE 8081
+EXPOSE 8089
 
 CMD ["./mainu"]
